@@ -1,0 +1,57 @@
+Detected Java version: 1.6 in: C:\Program Files (x86)\Java\jdk1.6.0_16\jre
+Detected OS: Windows 7
+parsing buildfile C:\ForceMigrationTool\PigtoBetaMyAccess\build.xml with URI = file:/C:/ForceMigrationTool/PigtoBetaMyAccess/build.xml
+Project base dir set to: C:\ForceMigrationTool\PigtoBetaMyAccess
+parsing buildfile jar:file:/C:/ANT_HOME/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/ANT_HOME/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+ [property] Loading C:\ForceMigrationTool\PigtoBetaMyAccess\build.properties
+ [property] Loading Environment env.
+Build sequence for target(s) `all' is [deployEFSettingsPackage, all]
+Complete build sequence is [deployEFSettingsPackage, all, ]
+
+deployEFSettingsPackage:
+   [delete] Deleting: C:\ForceMigrationTool\PigtoBetaMyAccess\SettingsPkg\settingsdeploy.zip
+      [zip] Building zip: C:\ForceMigrationTool\PigtoBetaMyAccess\SettingsPkg\settingsdeploy.zip
+      [zip] adding directory layouts/
+      [zip] adding directory permissionsets/
+      [zip] adding entry layouts/EF_AD_Attributes__c-EF AD Attributes Layout.layout
+      [zip] adding entry layouts/EF_Application_Form_Values__c-EF Application Form Values Layout.layout
+      [zip] adding entry layouts/EF_Approval_Log__c-EF Approval Log Layout.layout
+      [zip] adding entry layouts/EF_Decision_Criteria_Metadata__c-EF Decision Criteria Metadata Layout.layout
+      [zip] adding entry layouts/EF_Decision_Criteria__c-EF Decision Criteria Layout.layout
+      [zip] adding entry layouts/EF_Delegation__c-EF Delegation Layout.layout
+      [zip] adding entry layouts/EF_Error_Log__c-EF Error Log Layout.layout
+      [zip] adding entry layouts/EF_OKTA_Audit_Log__c-EF OKTA Audit Log Layout.layout
+      [zip] adding entry layouts/EF_OKTA_Queue__c-EF OKTA Queue Layout.layout
+      [zip] adding entry layouts/EF_Partner_Access_Restriction_Attribute__c-Partner Access Restriction Attribute Layout.layout
+      [zip] adding entry layouts/EF_Partner_Access_Restriction__c-Partner Access Restriction Layout.layout
+      [zip] adding entry layouts/EF_Partner_Access_Shares__c-Partner Access Share Layout.layout
+      [zip] adding entry layouts/EF_Partner__c-EF Partner Layout.layout
+      [zip] adding entry layouts/EF_Request__c-EF Request Layout.layout
+      [zip] adding entry layouts/EF_Requested__c-EF Requested Resource Layout.layout
+      [zip] adding entry layouts/EF_Requested__c-EF System Admins.layout
+      [zip] adding entry layouts/EF_Resource_Approver__c-EF Resource Approver Layout.layout
+      [zip] adding entry layouts/EF_Resource_Metadata_Dependency__c-EF Resource Metadata Dependency Layout.layout
+      [zip] adding entry layouts/EF_Resource_Metadata__c-EF Resource Metadata Layout.layout
+      [zip] adding entry layouts/EF_Resource_metadata_test1__c-EF_MetadataController_Test1 Layout.layout
+      [zip] adding entry layouts/EF_Scheduling__c-EF Scheduling Layout.layout
+      [zip] adding entry layouts/EF_System_Owner__c-EF System Owner Layout.layout
+      [zip] adding entry package.xml
+      [zip] adding entry permissionsets/Bulk_Merger_Acquisition.permissionset
+      [zip] adding entry permissionsets/EF_Admin.permissionset
+      [zip] adding entry permissionsets/EF_Bulk_Approval_Admin.permissionset
+      [zip] adding entry permissionsets/EF_Bulk_Approval_Merger.permissionset
+      [zip] adding entry permissionsets/EF_Standard_User.permissionset
+parsing buildfile jar:file:/C:/ANT_HOME/lib/ant-salesforce.jar!/com/salesforce/antlib.xml with URI = jar:file:/C:/ANT_HOME/lib/ant-salesforce.jar!/com/salesforce/antlib.xml from a zip file
+[sf:deploy] Request for a deploy submitted successfully.
+[sf:deploy] Request ID for the current deploy task: 09SJ00000011SyoMAE
+[sf:deploy] Waiting for server to finish processing the request...
+[sf:deploy] Request Status: Pending
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: Succeeded
+[sf:deploy] *********** DEPLOYMENT SUCCEEDED ***********
+[sf:deploy] Finished request 09SJ00000011SyoMAE successfully.
+
+all:
+
+BUILD SUCCESSFUL
+Total time: 25 seconds

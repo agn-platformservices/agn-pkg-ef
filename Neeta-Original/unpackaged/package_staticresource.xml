@@ -1,0 +1,95 @@
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   <!-- <types>
+        <members>extjs</members>
+        <name>StaticResource</name>
+    </types>  
+	<types>
+        <members>senchatouch</members>
+        <name>StaticResource</name>
+    </types> 	
+	<types>
+        <members>helpIcon16</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>Request_Style</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>ef_externalIcon</members>
+        <name>StaticResource</name>
+    </types>	
+	<types>
+        <members>ef_externalResourceIcon</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>loading_animation</members>
+        <name>StaticResource</name>
+    </types>-->
+<types>
+        <members>famfamfam</members>
+        <name>StaticResource</name>
+    </types>
+<types>
+        <members>BOXI</members>
+        <name>StaticResource</name>
+    </types>
+<types>
+        <members>EF_FormDefinition</members>
+        <name>StaticResource</name>
+    </types>
+<types>
+        <members>SAPBOXI</members>
+        <name>StaticResource</name>
+    </types>
+<types>
+        <members>EF_Form_All</members>
+        <name>StaticResource</name>
+    </types>
+<types>
+        <members>ie_pie</members>
+        <name>StaticResource</name>
+    </types>
+<types>
+        <members>border_radius_htc</members>
+        <name>StaticResource</name>
+    </types>	
+	<types>
+        <members>ef_resource_search_reset</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>ef_tab_close_icon2</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>EF_Logo_Small2</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>ef_tab_close_icon</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>EF_Logo_Small</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>IE8_polyfill</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>EF_Logo</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>oktaParser</members>
+        <name>StaticResource</name>
+    </types>
+	<types>
+        <members>searchComponent</members>
+        <name>StaticResource</name>
+    </types>
+    <version>26.0</version>
+</Package>

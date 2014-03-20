@@ -1,0 +1,118 @@
+<project name="Sample usage of Salesforce Ant tasks" default="all" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <property file="build.properties"/>
+    <property environment="env"/>
+	
+    
+    <!-- Retrieve an unpackaged set of metadata from your org -->
+    <!-- The file unpackaged/package.xml lists what is to be retrieved -->
+	 
+	 <target name="all" depends="retrieveEFObjectsPackage"/>
+	 
+	 <target name="retrieveEFObjectsPackage">
+		<delete dir="${basedir}/ObjPkg" />
+		<mkdir dir="${basedir}/ObjPkg" />
+		
+		  <sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="${basedir}/ObjPkg" unpackaged="unpackaged/package_objects.xml"/>
+    </target>
+	
+    
+	<target name="retrieveStaticResourcePackage">			
+		<mkdir dir="${basedir}/StaticResourcePkg" />     
+		   
+		  <sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="${basedir}/StaticResourcePkg" unpackaged="unpackaged/package_staticresource.xml"/>
+    </target>
+	
+	<target name="retrieveEFSettingsPackage">
+		<delete dir="${basedir}/SettingsPkg" />
+		<mkdir dir="${basedir}/SettingsPkg" />      
+		   
+		  <sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="${basedir}/SettingsPkg" unpackaged="unpackaged/package_settings.xml"/>
+    </target>
+	
+	<target name="retrieveComponentPackage">	
+		<delete dir="${basedir}/ComponentPkg" />
+		<mkdir dir="${basedir}/ComponentPkg" />      
+		   
+		  <sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="${basedir}/ComponentPkg" unpackaged="unpackaged/package_component.xml"/>
+    </target>
+	
+	<target name="retrieveEFCodePackage">
+		<delete dir="${basedir}/CodePkg" />
+		<mkdir dir="${basedir}/CodePkg" /> 
+		  <sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="${basedir}/CodePkg" unpackaged="unpackaged/package_code.xml"/>
+    </target>	
+ 
+	 <target name="retrieveWorkflowandEmailTemplatesPackage">
+		<delete dir="${basedir}/ApprovalandEmailTemplates" />
+		<mkdir dir="${basedir}/ApprovalandEmailTemplates" />
+		
+		  <sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="${basedir}/ApprovalandEmailTemplates" unpackaged="unpackaged/package_approvalandemail.xml"/>
+    </target>
+	
+	<target name="deployWorkflowandEmailTemplatesPackage" description="Deploys everything stored in the /ObjPkg directory. You must specify the org to deploy to via -propertyfile=[org property file name]. Use -DrunAllTests=[booleanValue] to run all the tests or skip them. Use -DisValidate=[booleanValue] to determine if you only want to validate the deploy (i.e., not actually deploy anything)">
+    <delete file="${basedir}/ApprovalandEmailTemplates/workflowandEmail.zip"/>
+    <zip destfile="${basedir}/ApprovalandEmailTemplates/workflowandEmail.zip" update="true">
+        <fileset dir="${basedir}/ApprovalandEmailTemplates" includes="**/*"/>
+    </zip>
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="${basedir}/ApprovalandEmailTemplates/workflowandEmail.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" runAllTests="false" checkOnly="false" logType="Debugonly" singlePackage="true" allowMissingFiles="true" />
+	</target>
+	
+	<target name="deployEFObjectsPackage" description="Deploys everything stored in the /ObjPkg directory. You must specify the org to deploy to via -propertyfile=[org property file name]. Use -DrunAllTests=[booleanValue] to run all the tests or skip them. Use -DisValidate=[booleanValue] to determine if you only want to validate the deploy (i.e., not actually deploy anything)">
+    <delete file="${basedir}/ObjPkg/objectdeploy.zip"/>
+    <zip destfile="${basedir}/ObjPkg/objectdeploy.zip" update="true">
+        <fileset dir="${basedir}/ObjPkg" includes="**/*"/>
+    </zip>
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="${basedir}/ObjPkg/objectdeploy.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" runAllTests="false" checkOnly="FALSE" logType="Debugonly" singlePackage="true" allowMissingFiles="true" />
+	</target>
+	
+	
+	<target name="deployStaticResourcePackage" description="Deploys everything stored in the /deployStaticResourcePackage directory. You must specify the org to deploy to via -propertyfile=[org property file name]. Use -DrunAllTests=[booleanValue] to run all the tests or skip them. Use -DisValidate=[booleanValue] to determine if you only want to validate the deploy (i.e., not actually deploy anything)">
+    <delete file="${basedir}/StaticResourcePkg/srdeploy.zip"/>
+    <zip destfile="${basedir}/StaticResourcePkg/srdeploy.zip" update="true">
+        <fileset dir="${basedir}/StaticResourcePkg" includes="**/*"/>
+    </zip>
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="${basedir}/StaticResourcePkg/srdeploy.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" runAllTests="false" checkOnly="false" logType="Debugonly" singlePackage="true" allowMissingFiles="true" />
+	</target>
+	
+	<target name="deployStaticResourcePackage2" description="Deploys everything stored in the /deployStaticResourcePackage2 directory. You must specify the org to deploy to via -propertyfile=[org property file name]. Use -DrunAllTests=[booleanValue] to run all the tests or skip them. Use -DisValidate=[booleanValue] to determine if you only want to validate the deploy (i.e., not actually deploy anything)">
+    <delete file="${basedir}/StaticResourcePkg2/srdeploy2.zip"/>
+    <zip destfile="${basedir}/StaticResourcePkg2/srdeploy2.zip" update="true">
+        <fileset dir="${basedir}/StaticResourcePkg2" includes="**/*"/>
+    </zip>
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="${basedir}/StaticResourcePkg2/srdeploy2.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" runAllTests="false" checkOnly="false" logType="Debugonly" singlePackage="true" allowMissingFiles="true" />
+	</target>
+	
+	<target name="deployStaticResourcePackage3" description="Deploys everything stored in the /deployStaticResourcePackage3 directory. You must specify the org to deploy to via -propertyfile=[org property file name]. Use -DrunAllTests=[booleanValue] to run all the tests or skip them. Use -DisValidate=[booleanValue] to determine if you only want to validate the deploy (i.e., not actually deploy anything)">
+    <delete file="${basedir}/StaticResourcePkg3/srdeploy3.zip"/>
+    <zip destfile="${basedir}/StaticResourcePkg3/srdeploy3.zip" update="true">
+        <fileset dir="${basedir}/StaticResourcePkg3" includes="**/*"/>
+    </zip>
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="${basedir}/StaticResourcePkg3/srdeploy3.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" runAllTests="false" checkOnly="false" logType="Debugonly" singlePackage="true" allowMissingFiles="true" />
+	</target>
+	
+		
+	<target name="deployEFCodePackage" description="Deploys everything stored in the /CodePkg directory. You must specify the org to deploy to via -propertyfile=[org property file name]. Use -DrunAllTests=[booleanValue] to run all the tests or skip them. Use -DisValidate=[booleanValue] to determine if you only want to validate the deploy (i.e., not actually deploy anything)">
+    <delete file="${basedir}/CodePkg/codedeploy.zip"/>
+    <zip destfile="${basedir}/CodePkg/codedeploy.zip" update="true">
+        <fileset dir="${basedir}/CodePkg" includes="**/*"/>
+    </zip>
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="${basedir}/CodePkg/codedeploy.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" runAllTests="false" checkOnly="false" logType="Debugonly" singlePackage="true" allowMissingFiles="true" />
+	</target>
+	
+	<target name="deployCompPackage" description="Deploys everything stored in the /ObjPkg directory. You must specify the org to deploy to via -propertyfile=[org property file name]. Use -DrunAllTests=[booleanValue] to run all the tests or skip them. Use -DisValidate=[booleanValue] to determine if you only want to validate the deploy (i.e., not actually deploy anything)">
+    <delete file="${basedir}/ComponentPkg/compdeploy.zip"/>
+    <zip destfile="${basedir}/ComponentPkg/compdeploy.zip" update="true">
+        <fileset dir="${basedir}/ComponentPkg" includes="**/*"/>
+    </zip>
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="${basedir}/ComponentPkg/compdeploy.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" runAllTests="false" checkOnly="false" logType="Debugonly" singlePackage="true" allowMissingFiles="true" />
+	</target>
+
+   <target name="deployEFSettingsPackage" description="Deploys everything stored in the /SettingsPkg directory. You must specify the org to deploy to via -propertyfile=[org property file name]. Use -DrunAllTests=[booleanValue] to run all the tests or skip them. Use -DisValidate=[booleanValue] to determine if you only want to validate the deploy (i.e., not actually deploy anything)">
+    <delete file="${basedir}/SettingsPkg/settingsdeploy.zip"/>
+    <zip destfile="${basedir}/SettingsPkg/settingsdeploy.zip" update="true">
+        <fileset dir="${basedir}/SettingsPkg" includes="**/*"/>
+    </zip>
+    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" zipFile="${basedir}/SettingsPkg/settingsdeploy.zip" maxPoll="2000" pollWaitMillis="10000" rollbackOnError="true" runAllTests="false" checkOnly="false" logType="Debugonly" singlePackage="true" allowMissingFiles="true" />
+	</target>
+</project>

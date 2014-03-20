@@ -1,0 +1,34 @@
+Detected Java version: 1.6 in: C:\Program Files (x86)\Java\jdk1.6.0_16\jre
+Detected OS: Windows 7
+parsing buildfile C:\ForceMigrationTool\PigtoBetaMyAccess\build.xml with URI = file:/C:/ForceMigrationTool/PigtoBetaMyAccess/build.xml
+Project base dir set to: C:\ForceMigrationTool\PigtoBetaMyAccess
+parsing buildfile jar:file:/C:/ANT_HOME/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/ANT_HOME/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+ [property] Loading C:\ForceMigrationTool\PigtoBetaMyAccess\build.properties
+ [property] Loading Environment env.
+Build sequence for target(s) `all' is [deployWorkflowandEmailTemplatesPackage, all]
+Complete build sequence is [deployWorkflowandEmailTemplatesPackage, all, ]
+
+deployWorkflowandEmailTemplatesPackage:
+   [delete] Deleting: C:\ForceMigrationTool\PigtoBetaMyAccess\ApprovalandEmailTemplates\workflowandEmail.zip
+      [zip] Building zip: C:\ForceMigrationTool\PigtoBetaMyAccess\ApprovalandEmailTemplates\workflowandEmail.zip
+      [zip] adding directory approvalProcesses/
+      [zip] adding entry approvalProcesses/EF_Requested__c.Approval_Process_Level_Five.approvalProcess
+      [zip] adding entry approvalProcesses/EF_Requested__c.Approval_Process_Level_Four.approvalProcess
+      [zip] adding entry approvalProcesses/EF_Requested__c.Approval_Process_Level_One.approvalProcess
+      [zip] adding entry approvalProcesses/EF_Requested__c.Approval_Process_Level_Three.approvalProcess
+      [zip] adding entry approvalProcesses/EF_Requested__c.Approval_Process_Level_Two.approvalProcess
+      [zip] adding entry approvalProcesses/EF_Requested__c.Approval_Process_Manager_Approval.approvalProcess
+      [zip] adding entry package.xml
+parsing buildfile jar:file:/C:/ANT_HOME/lib/ant-salesforce.jar!/com/salesforce/antlib.xml with URI = jar:file:/C:/ANT_HOME/lib/ant-salesforce.jar!/com/salesforce/antlib.xml from a zip file
+[sf:deploy] Request for a deploy submitted successfully.
+[sf:deploy] Request ID for the current deploy task: 09SK0000000qmL4MAI
+[sf:deploy] Waiting for server to finish processing the request...
+[sf:deploy] Request Status: InProgress
+[sf:deploy] Request Status: Succeeded
+[sf:deploy] *********** DEPLOYMENT SUCCEEDED ***********
+[sf:deploy] Finished request 09SK0000000qmL4MAI successfully.
+
+all:
+
+BUILD SUCCESSFUL
+Total time: 14 seconds

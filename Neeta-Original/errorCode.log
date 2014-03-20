@@ -1,0 +1,236 @@
+Detected Java version: 1.6 in: C:\Program Files (x86)\Java\jdk1.6.0_16\jre
+Detected OS: Windows 7
+parsing buildfile C:\ForceMigrationTool\PigtoBetaMyAccess\build.xml with URI = file:/C:/ForceMigrationTool/PigtoBetaMyAccess/build.xml
+Project base dir set to: C:\ForceMigrationTool\PigtoBetaMyAccess
+parsing buildfile jar:file:/C:/ANT_HOME/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/ANT_HOME/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+ [property] Loading C:\ForceMigrationTool\PigtoBetaMyAccess\build.properties
+ [property] Loading Environment env.
+Build sequence for target(s) `deployEFCodePackage' is [deployEFCodePackage]
+Complete build sequence is [deployEFCodePackage, ]
+
+deployEFCodePackage:
+   [delete] Deleting: C:\ForceMigrationTool\PigtoBetaMyAccess\CodePkg\codedeploy.zip
+      [zip] Building zip: C:\ForceMigrationTool\PigtoBetaMyAccess\CodePkg\codedeploy.zip
+      [zip] adding directory classes/
+      [zip] adding directory pages/
+      [zip] adding directory triggers/
+      [zip] adding entry classes/Batch_Test.cls
+      [zip] adding entry classes/Batch_Test.cls-meta.xml
+      [zip] adding entry classes/EFAjaxRemotingFunctionsController.cls
+      [zip] adding entry classes/EFAjaxRemotingFunctionsController.cls-meta.xml
+      [zip] adding entry classes/EF_AfterFormSubmissionLogic.cls
+      [zip] adding entry classes/EF_AfterFormSubmissionLogic.cls-meta.xml
+      [zip] adding entry classes/EF_Approval_Utility.cls
+      [zip] adding entry classes/EF_Approval_Utility.cls-meta.xml
+      [zip] adding entry classes/EF_Approval_Wrapper.cls
+      [zip] adding entry classes/EF_Approval_Wrapper.cls-meta.xml
+      [zip] adding entry classes/EF_AssignDynamicApprovers.cls
+      [zip] adding entry classes/EF_AssignDynamicApprovers.cls-meta.xml
+      [zip] adding entry classes/EF_AuditLog.cls
+      [zip] adding entry classes/EF_AuditLog.cls-meta.xml
+      [zip] adding entry classes/EF_AuditLogTest.cls
+      [zip] adding entry classes/EF_AuditLogTest.cls-meta.xml
+      [zip] adding entry classes/EF_Constants.cls
+      [zip] adding entry classes/EF_Constants.cls-meta.xml
+      [zip] adding entry classes/EF_DelegationHandler.cls
+      [zip] adding entry classes/EF_DelegationHandler.cls-meta.xml
+      [zip] adding entry classes/EF_Delegation_Approver.cls
+      [zip] adding entry classes/EF_Delegation_Approver.cls-meta.xml
+      [zip] adding entry classes/EF_Dynamic_CC_EmailTemplate.cls
+      [zip] adding entry classes/EF_Dynamic_CC_EmailTemplate.cls-meta.xml
+      [zip] adding entry classes/EF_Error_Log.cls
+      [zip] adding entry classes/EF_Error_Log.cls-meta.xml
+      [zip] adding entry classes/EF_Exception.cls
+      [zip] adding entry classes/EF_Exception.cls-meta.xml
+      [zip] adding entry classes/EF_Form_API.cls
+      [zip] adding entry classes/EF_Form_API.cls-meta.xml
+      [zip] adding entry classes/EF_Form_ApprovalController.cls
+      [zip] adding entry classes/EF_Form_ApprovalController.cls-meta.xml
+      [zip] adding entry classes/EF_GeneratePasswordValue.cls
+      [zip] adding entry classes/EF_GeneratePasswordValue.cls-meta.xml
+      [zip] adding entry classes/EF_GetUserDetailFormOkta_CTRL.cls
+      [zip] adding entry classes/EF_GetUserDetailFormOkta_CTRL.cls-meta.xml
+      [zip] adding entry classes/EF_GetUserDetailFormOkta_Search_AC.cls
+      [zip] adding entry classes/EF_GetUserDetailFormOkta_Search_AC.cls-meta.xml
+      [zip] adding entry classes/EF_ITrigger.cls
+      [zip] adding entry classes/EF_ITrigger.cls-meta.xml
+      [zip] adding entry classes/EF_ITrigger1.cls
+      [zip] adding entry classes/EF_ITrigger1.cls-meta.xml
+      [zip] adding entry classes/EF_JSON_Parser.cls
+      [zip] adding entry classes/EF_JSON_Parser.cls-meta.xml
+      [zip] adding entry classes/EF_JSON_Parser_Test.cls
+      [zip] adding entry classes/EF_JSON_Parser_Test.cls-meta.xml
+      [zip] adding entry classes/EF_MetadataController.cls
+      [zip] adding entry classes/EF_MetadataController.cls-meta.xml
+      [zip] adding entry classes/EF_Metadata_TestController.cls
+      [zip] adding entry classes/EF_Metadata_TestController.cls-meta.xml
+      [zip] adding entry classes/EF_OKTAQueueHandler.cls
+      [zip] adding entry classes/EF_OKTAQueueHandler.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_API.cls
+      [zip] adding entry classes/EF_OKTA_API.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_App.cls
+      [zip] adding entry classes/EF_OKTA_App.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_Authenticate.cls
+      [zip] adding entry classes/EF_OKTA_Authenticate.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_ForApplicationFormValues.cls
+      [zip] adding entry classes/EF_OKTA_ForApplicationFormValues.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_Populator.cls
+      [zip] adding entry classes/EF_OKTA_Populator.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_PopulatorTest.cls
+      [zip] adding entry classes/EF_OKTA_PopulatorTest.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_Proxy.cls
+      [zip] adding entry classes/EF_OKTA_Proxy.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_Queue.cls
+      [zip] adding entry classes/EF_OKTA_Queue.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_Queue_Batch.cls
+      [zip] adding entry classes/EF_OKTA_Queue_Batch.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_RESTAPI.cls
+      [zip] adding entry classes/EF_OKTA_RESTAPI.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_Schedule.cls
+      [zip] adding entry classes/EF_OKTA_Schedule.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_User.cls
+      [zip] adding entry classes/EF_OKTA_User.cls-meta.xml
+      [zip] adding entry classes/EF_OKTA_User_Application.cls
+      [zip] adding entry classes/EF_OKTA_User_Application.cls-meta.xml
+      [zip] adding entry classes/EF_Okta_AppResponse.cls
+      [zip] adding entry classes/EF_Okta_AppResponse.cls-meta.xml
+      [zip] adding entry classes/EF_Partner_OKTA_Security.cls
+      [zip] adding entry classes/EF_Partner_OKTA_Security.cls-meta.xml
+      [zip] adding entry classes/EF_Partner_OKTA_Security_Test.cls
+      [zip] adding entry classes/EF_Partner_OKTA_Security_Test.cls-meta.xml
+      [zip] adding entry classes/EF_PendingApprovalList.cls
+      [zip] adding entry classes/EF_PendingApprovalList.cls-meta.xml
+      [zip] adding entry classes/EF_RequestController.cls
+      [zip] adding entry classes/EF_RequestController.cls-meta.xml
+      [zip] adding entry classes/EF_RequestController_Test.cls
+      [zip] adding entry classes/EF_RequestController_Test.cls-meta.xml
+      [zip] adding entry classes/EF_RequestHandler_Test.cls
+      [zip] adding entry classes/EF_RequestHandler_Test.cls-meta.xml
+      [zip] adding entry classes/EF_Request_Approve_Controller.cls
+      [zip] adding entry classes/EF_Request_Approve_Controller.cls-meta.xml
+      [zip] adding entry classes/EF_Request_Status_Class.cls
+      [zip] adding entry classes/EF_Request_Status_Class.cls-meta.xml
+      [zip] adding entry classes/EF_RequestedHandler.cls
+      [zip] adding entry classes/EF_RequestedHandler.cls-meta.xml
+      [zip] adding entry classes/EF_RequestedResourceApprover.cls
+      [zip] adding entry classes/EF_RequestedResourceApprover.cls-meta.xml
+      [zip] adding entry classes/EF_RequestedResourceController.cls
+      [zip] adding entry classes/EF_RequestedResourceController.cls-meta.xml
+      [zip] adding entry classes/EF_RequestedResourceDecisionCriteria.cls
+      [zip] adding entry classes/EF_RequestedResourceDecisionCriteria.cls-meta.xml
+      [zip] adding entry classes/EF_Requested_Approved.cls
+      [zip] adding entry classes/EF_Requested_Approved.cls-meta.xml
+      [zip] adding entry classes/EF_Requested_Submitted.cls
+      [zip] adding entry classes/EF_Requested_Submitted.cls-meta.xml
+      [zip] adding entry classes/EF_Requested_Submitted_Manager.cls
+      [zip] adding entry classes/EF_Requested_Submitted_Manager.cls-meta.xml
+      [zip] adding entry classes/EF_TableTestClass.cls
+      [zip] adding entry classes/EF_TableTestClass.cls-meta.xml
+      [zip] adding entry classes/EF_TriggerHelper.cls
+      [zip] adding entry classes/EF_TriggerHelper.cls-meta.xml
+      [zip] adding entry classes/EF_UpdateOKTA.cls
+      [zip] adding entry classes/EF_UpdateOKTA.cls-meta.xml
+      [zip] adding entry classes/EF_WorkItemStatus_Approve.cls
+      [zip] adding entry classes/EF_WorkItemStatus_Approve.cls-meta.xml
+      [zip] adding entry classes/EF_WorkItemStatus_EmailTemplate.cls
+      [zip] adding entry classes/EF_WorkItemStatus_EmailTemplate.cls-meta.xml
+      [zip] adding entry classes/Ef_RequestedHandler_Test_Utility.cls
+      [zip] adding entry classes/Ef_RequestedHandler_Test_Utility.cls-meta.xml
+      [zip] adding entry classes/JSONObject.cls
+      [zip] adding entry classes/JSONObject.cls-meta.xml
+      [zip] adding entry classes/Okta_SCIM_Group.cls
+      [zip] adding entry classes/Okta_SCIM_Group.cls-meta.xml
+      [zip] adding entry classes/Okta_SCIM_Interface.cls
+      [zip] adding entry classes/Okta_SCIM_Interface.cls-meta.xml
+      [zip] adding entry classes/Okta_SCIM_User.cls
+      [zip] adding entry classes/Okta_SCIM_User.cls-meta.xml
+      [zip] adding entry classes/Partner_OKTA_Gateway.cls
+      [zip] adding entry classes/Partner_OKTA_Gateway.cls-meta.xml
+      [zip] adding entry classes/Schedule_Test.cls
+      [zip] adding entry classes/Schedule_Test.cls-meta.xml
+      [zip] adding entry classes/myExtjs1.cls
+      [zip] adding entry classes/myExtjs1.cls-meta.xml
+      [zip] adding entry classes/recusrssionPreventController.cls
+      [zip] adding entry classes/recusrssionPreventController.cls-meta.xml
+      [zip] adding entry classes/tstpopup.cls
+      [zip] adding entry classes/tstpopup.cls-meta.xml
+      [zip] adding entry classes/updateFormValuesField.cls
+      [zip] adding entry classes/updateFormValuesField.cls-meta.xml
+      [zip] adding entry classes/value.cls
+      [zip] adding entry classes/value.cls-meta.xml
+      [zip] adding entry package.xml
+      [zip] adding entry pages/ApprovalForm.page
+      [zip] adding entry pages/ApprovalForm.page-meta.xml
+      [zip] adding entry pages/EF_ApprovalRelatedList.page
+      [zip] adding entry pages/EF_ApprovalRelatedList.page-meta.xml
+      [zip] adding entry pages/EF_Approval_Polsource.page
+      [zip] adding entry pages/EF_Approval_Polsource.page-meta.xml
+      [zip] adding entry pages/EF_Delegation.page
+      [zip] adding entry pages/EF_Delegation.page-meta.xml
+      [zip] adding entry pages/EF_Form.page
+      [zip] adding entry pages/EF_Form.page-meta.xml
+      [zip] adding entry pages/EF_GetUserDetailFormOkta.page
+      [zip] adding entry pages/EF_GetUserDetailFormOkta.page-meta.xml
+      [zip] adding entry pages/EF_GetUserDetailFormOkta_Search.page
+      [zip] adding entry pages/EF_GetUserDetailFormOkta_Search.page-meta.xml
+      [zip] adding entry pages/EF_PendingApprovalList.page
+      [zip] adding entry pages/EF_PendingApprovalList.page-meta.xml
+      [zip] adding entry pages/EF_PendingApprovalList_Mobile.page
+      [zip] adding entry pages/EF_PendingApprovalList_Mobile.page-meta.xml
+      [zip] adding entry pages/EF_Request_ApprovalPage.page
+      [zip] adding entry pages/EF_Request_ApprovalPage.page-meta.xml
+      [zip] adding entry pages/EF_Request_Status_Page.page
+      [zip] adding entry pages/EF_Request_Status_Page.page-meta.xml
+      [zip] adding entry pages/myExtjs1.page
+      [zip] adding entry pages/myExtjs1.page-meta.xml
+      [zip] adding entry triggers/EF_Delegation_ReassignApprovalStep.trigger
+      [zip] adding entry triggers/EF_Delegation_ReassignApprovalStep.trigger-meta.xml
+      [zip] adding entry triggers/EF_OKTAQueue.trigger
+      [zip] adding entry triggers/EF_OKTAQueue.trigger-meta.xml
+      [zip] adding entry triggers/EF_RequestedResource.trigger
+      [zip] adding entry triggers/EF_RequestedResource.trigger-meta.xml
+      [zip] adding entry triggers/assignOwnertrigger.trigger
+      [zip] adding entry triggers/assignOwnertrigger.trigger-meta.xml
+parsing buildfile jar:file:/C:/ANT_HOME/lib/ant-salesforce.jar!/com/salesforce/antlib.xml with URI = jar:file:/C:/ANT_HOME/lib/ant-salesforce.jar!/com/salesforce/antlib.xml from a zip file
+[sf:deploy] Request for a deploy submitted successfully.
+[sf:deploy] Request ID for the current deploy task: 09SJ00000011SOSMA2
+[sf:deploy] Waiting for server to finish processing the request...
+[sf:deploy] Request Status: Pending
+[sf:deploy] Request Status: InProgress (12/88)  -- Processing Type: ApexClass
+[sf:deploy] Request Status: InProgress (84/88)  -- Processing Type: ApexTrigger
+[sf:deploy] Request Status: Failed
+
+BUILD FAILED
+C:\ForceMigrationTool\PigtoBetaMyAccess\build.xml:65: 
+*********** DEPLOYMENT FAILED ***********
+Request ID: 09SJ00000011SOSMA2
+
+All Component Failures:
+1.  pages/EF_Delegation.page -- Error: Component c:ef_nodatelink does not exist
+2.  pages/EF_Form.page -- Error: Static Resource named ef_externalIcon does not exist. Check spelling.
+3.  pages/EF_Request_ApprovalPage.page -- Error: Static Resource named loading_animation does not exist. Check spelling.
+
+*********** DEPLOYMENT FAILED ***********
+
+	at com.salesforce.ant.DeployTask.handleResponse(DeployTask.java:170)
+	at com.salesforce.ant.SFDCMDAPIAntTaskRunner.runTask(SFDCMDAPIAntTaskRunner.java:92)
+	at com.salesforce.ant.DeployTask.execute(DeployTask.java:73)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1248)
+	at org.apache.tools.ant.Main.runBuild(Main.java:851)
+	at org.apache.tools.ant.Main.startAnt(Main.java:235)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109)
+
+Total time: 34 seconds
