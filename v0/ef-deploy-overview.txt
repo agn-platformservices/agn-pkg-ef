@@ -1,4 +1,5 @@
 EF Notes:
+- CustomLabels can't be deployed individually - compare AGN.prod to AGN.beta and make sure on EF* labels have changed
 - Static resource names need to be cleaned up
 - Apex class "JSONObject" ?
 - Page "ApprovalForm" ?
@@ -11,8 +12,6 @@ EF Deployment Steps:
 ###########
 PROBLEMS
 - User fields - need these instead of entire object
-- custom labels can't be specified?
-- Entity type: 'Folder' is unknown
 
 [sf:retrieve] Retrieve warnings (30):
 [sf:retrieve] package.xml - Entity of type 'ApprovalProcess' named 'EEF_Requested__c.Approval_Process_Level_Two' cannot be found
