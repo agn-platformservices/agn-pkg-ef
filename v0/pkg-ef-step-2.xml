@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <members>EEF_Requested__c.Approval_Process_Level_One</members>
-    <members>EEF_Requested__c.Approval_Process_Level_Two</members>
-    <members>EEF_Requested__c.Approval_Process_Level_Three</members>
-    <members>EEF_Requested__c.Approval_Process_Level_Four</members>
-    <members>EEF_Requested__c.Approval_Process_Level_Five</members>
-    <members>EEF_Requested__c.Approval_Process_Manager_Approval</members>
+    <members>EF_Requested__c.Approval_Process_Level_One</members>
+    <members>EF_Requested__c.Approval_Process_Level_Two</members>
+    <members>EF_Requested__c.Approval_Process_Level_Three</members>
+    <members>EF_Requested__c.Approval_Process_Level_Four</members>
+    <members>EF_Requested__c.Approval_Process_Level_Five</members>
+    <members>EF_Requested__c.Approval_Process_Manager_Approval</members>
     <name>ApprovalProcess</name>
   </types>
   <types>
@@ -191,28 +191,28 @@
     <name>EmailTemplate</name>
   </types>
   <types>
-    <members>EEF_AD_Attributes__c-EF AD Attributes Layout</members>
-    <members>EEF_Application_Form_Values__c-EF Application Form Values Layout</members>
-    <members>EEF_Approval_Log__c-EF Approval Log Layout</members>
-    <members>EEF_Decision_Criteria_Metadata__c-EF Decision Criteria Metadata Layout</members>
-    <members>EEF_Decision_Criteria__c-EF Decision Criteria Layout</members>
-    <members>EEF_Delegation__c-EF Delegation Layout</members>
-    <members>EEF_Error_Log__c-EF Error Log Layout</members>
-    <members>EEF_OKTA_Audit_Log__c-EF OKTA Audit Log Layout</members>
-    <members>EEF_OKTA_Queue__c-EF OKTA Queue Layout</members>
-    <members>EEF_Partner_Access_Restriction_Attribute__c-Partner Access Restriction Attribute Layout</members>
-    <members>EEF_Partner_Access_Restriction__c-Partner Access Restriction Layout</members>
-    <members>EEF_Partner_Access_Shares__c-Partner Access Share Layout</members>
-    <members>EEF_Partner__c-EF Partner Layout</members>
-    <members>EEF_Request__c-EF Request Layout</members>
-    <members>EEF_Requested__c-EF Requested Resource Layout</members>
-    <members>EEF_Requested__c-EF System Admins</members>
-    <members>EEF_Resource_Approver__c-EF Resource Approver Layout</members>
-    <members>EEF_Resource_Metadata_Dependency__c-EF Resource Metadata Dependency Layout</members>
-    <members>EEF_Resource_Metadata__c-EF Resource Metadata Layout</members>
-    <members>EEF_Resource_metadata_test1__c-EF_MetadataController_Test1 Layout</members>
-    <members>EEF_Scheduling__c-EF Scheduling Layout</members>
-    <members>EEF_System_Owner__c-EF System Owner Layout</members>
+    <members>EF_AD_Attributes__c-EF AD Attributes Layout</members>
+    <members>EF_Application_Form_Values__c-EF Application Form Values Layout</members>
+    <members>EF_Approval_Log__c-EF Approval Log Layout</members>
+    <members>EF_Decision_Criteria_Metadata__c-EF Decision Criteria Metadata Layout</members>
+    <members>EF_Decision_Criteria__c-EF Decision Criteria Layout</members>
+    <members>EF_Delegation__c-EF Delegation Layout</members>
+    <members>EF_Error_Log__c-EF Error Log Layout</members>
+    <members>EF_OKTA_Audit_Log__c-EF OKTA Audit Log Layout</members>
+    <members>EF_OKTA_Queue__c-EF OKTA Queue Layout</members>
+    <members>EF_Partner_Access_Restriction_Attribute__c-Partner Access Restriction Attribute Layout</members>
+    <members>EF_Partner_Access_Restriction__c-Partner Access Restriction Layout</members>
+    <members>EF_Partner_Access_Shares__c-Partner Access Share Layout</members>
+    <members>EF_Partner__c-EF Partner Layout</members>
+    <members>EF_Request__c-EF Request Layout</members>
+    <members>EF_Requested__c-EF Requested Resource Layout</members>
+    <members>EF_Requested__c-EF System Admins</members>
+    <members>EF_Resource_Approver__c-EF Resource Approver Layout</members>
+    <members>EF_Resource_Metadata_Dependency__c-EF Resource Metadata Dependency Layout</members>
+    <members>EF_Resource_Metadata__c-EF Resource Metadata Layout</members>
+    <members>EF_Resource_metadata_test1__c-EF_MetadataController_Test1 Layout</members>
+    <members>EF_Scheduling__c-EF Scheduling Layout</members>
+    <members>EF_System_Owner__c-EF System Owner Layout</members>
     <name>Layout</name>
   </types>
   <types>
