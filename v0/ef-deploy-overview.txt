@@ -6,4 +6,4 @@ EF Notes:
  
  
 EF Deployment Steps:
-
+ - Workflow - do rules and alerts need to be specified individually?

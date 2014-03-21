@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>EEF_Requested__c.Approval_Process_Level_One</members>
+    <members>EEF_Requested__c.Approval_Process_Level_Two</members>
+    <members>EEF_Requested__c.Approval_Process_Level_Three</members>
+    <members>EEF_Requested__c.Approval_Process_Level_Four</members>
+    <members>EEF_Requested__c.Approval_Process_Level_Five</members>
+    <members>EEF_Requested__c.Approval_Process_Manager_Approval</members>
+    <name>ApprovalProcess</name>
+  </types>
+  <types>
+    <members>EF_AfterFormSubmissionLogic</members>
+    <members>EF_Approval_Utility</members>
+    <members>EF_Approval_Wrapper</members>
+    <members>EF_AssignDynamicApprovers</members>
+    <members>EF_AuditLog</members>
+    <members>EF_AuditLogTest</members>
+    <members>EF_Constants</members>
+    <members>EF_Delegation_Approver</members>
+    <members>EF_DelegationHandler</members>
+    <members>EF_Dynamic_CC_EmailTemplate</members>
+    <members>EF_Error_Log</members>
+    <members>EF_Exception</members>
+    <members>EF_Form_API</members>
+    <members>EF_Form_ApprovalController</members>
+    <members>EF_GeneratePasswordValue</members>
+    <members>EF_GetUserDetailFormOkta_CTRL</members>
+    <members>EF_GetUserDetailFormOkta_Search_AC</members>
+    <members>EF_ITrigger</members>
+    <members>EF_ITrigger1</members>
+    <members>EF_JSON_Parser_Test</members>
+    <members>EF_JSON_Parser</members>
+    <members>EF_Metadata_TestController</members>
+    <members>EF_MetadataController</members>
+    <members>EF_OKTA_API</members>
+    <members>EF_OKTA_App</members>
+    <members>EF_Okta_AppResponse</members>
+    <members>EF_OKTA_Authenticate</members>
+    <members>EF_OKTA_ForApplicationFormValues</members>
+    <members>EF_OKTA_Populator</members>
+    <members>EF_OKTA_PopulatorTest</members>
+    <members>EF_OKTA_Proxy</members>
+    <members>EF_OKTA_Queue_Batch</members>
+    <members>EF_OKTA_Queue</members>
+    <members>EF_OKTA_RESTAPI</members>
+    <members>EF_OKTA_Schedule</members>
+    <members>EF_OKTA_User_Application</members>
+    <members>EF_OKTA_User</members>
+    <members>EF_OKTAQueueHandler</members>
+    <members>EF_Partner_OKTA_Security_Test</members>
+    <members>EF_Partner_OKTA_Security</members>
+    <members>EF_PendingApprovalList</members>
+    <members>EF_Request_Approve_Controller</members>
+    <members>EF_Request_Status_Class</members>
+    <members>EF_RequestController_Test</members>
+    <members>EF_RequestController</members>
+    <members>EF_Requested_Approved</members>
+    <members>EF_Requested_Submitted_Manager</members>
+    <members>EF_Requested_Submitted</members>
+    <members>Ef_RequestedHandler_Test_Utility</members>
+    <members>EF_RequestedHandler</members>
+    <members>EF_RequestedResourceApprover</members>
+    <members>EF_RequestedResourceController</members>
+    <members>EF_RequestedResourceDecisionCriteria</members>
+    <members>EF_RequestHandler_Test</members>
+    <members>EF_TableTestClass</members>
+    <members>EF_TriggerHelper</members>
+    <members>EF_UpdateOKTA</members>
+    <members>EF_WorkItemStatus_Approve</members>
+    <members>EF_WorkItemStatus_EmailTemplate</members>
+    <members>JSONObject</members>
+    <members>Okta_SCIM_Group</members>
+    <members>Okta_SCIM_Interface</members>
+    <members>Okta_SCIM_User</members>
+    <members>Partner_OKTA_Gateway</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
+    <members>ApprovalForm</members>
+    <members>EF_ApprovalRelatedList</members>
+    <members>EF_Approval_Polsource</members>
+    <members>EF_Delegation</members>
+    <members>EF_Form</members>
+    <members>EF_Form_Mobile</members>
+    <members>EF_GetUserDetailFormOkta</members>
+    <members>EF_GetUserDetailFormOkta_Search</members>
+    <members>EF_PendingApprovalList</members>
+    <members>EF_PendingApprovalList_Mobile</members>
+    <members>EF_Request_ApprovalPage</members>
+    <members>EF_Request_Status_Page</members>
+    <name>ApexPage</name>
+  </types>
+  <types>
+    <members>EF_Delegation_ReassignApprovalStep</members>
+    <members>EF_Delegation_ReassignApprovalStep</members>
+    <members>EF_OKTAQueue</members>
+    <members>EF_OKTAQueue</members>
+    <members>EF_RequestedResource</members>
+    <members>EF_RequestedResource</members>
+    <members>assignOwnertrigger</members>
+    <members>assignOwnertrigger</members>
+    <name>ApexTrigger</name>
+  </types>
+  <types>
+    <members>EF_Requested_Approved</members>
+    <members>EF_Requested_Rejected</members>
+    <members>EF_Requested_Submitted</members>
+    <members>EF_Requested_Submitted_Manager</members>
+    <members>EF_WorkItemStatus_Approve</members>
+    <members>EF_attributetable</members>
+    <members>EF_noDateLink</members>
+    <members>EF_statusCompleteEmail</members>
+    <name>ApexComponent</name>
+  </types>
+  <types>
+    <members>EF_AD_Attributes__c</members>
+    <members>EF_Application_Form_Values__c</members>
+    <members>EF_Approval_Log__c</members>
+    <members>EF_Coral_Site_Mapping__c</members>
+    <members>EF_Decision_Criteria_Metadata__c</members>
+    <members>EF_Decision_Criteria__c</members>
+    <members>EF_Delegation__c</members>
+    <members>EF_Error_Log__c</members>
+    <members>EF_Field_Mapping__c</members>
+    <members>EF_LmsAdminProd_ApprovalKey__c</members>
+    <members>EF_MobileDeviceCompany_ApprovalKey__c</members>
+    <members>EF_OKTA_Audit_Log__c</members>
+    <members>EF_OKTA_Queue__c</members>
+    <members>EF_Partner_Access_Restriction_Attribute__c</members>
+    <members>EF_Partner_Access_Restriction__c</members>
+    <members>EF_Partner_Access_Shares__c</members>
+    <members>EF_Partner__c</members>
+    <members>EF_Pdf_Url__c</members>
+    <members>EF_Request__c</members>
+    <members>EF_Requested__c</members>
+    <members>EF_Resource_Approver__c</members>
+    <members>EF_Resource_Metadata_Dependency__c</members>
+    <members>EF_Resource_Metadata__c</members>
+    <members>EF_Resource_metadata_test1__c</members>
+    <members>EF_SOQL_Statements__c</members>
+    <members>EF_Scheduling__c</members>
+    <members>EF_System_Owner__c</members>
+    <members>EF_ilablms_Approvalkey__c</members>
+    <members>OKTA_EndPoint__c</members>
+    <members>OKTA_Site_Settings__c</members>
+    <members>Trigger_Switch__c</members>
+    <name>CustomObject</name>
+  </types>
+  <types>
+    <members>EF_AD_Attributes__c</members>
+    <members>EF_Application_Form_Values__c</members>
+    <members>EF_Approval_Log__c</members>
+    <members>EF_Decision_Criteria_Metadata__c</members>
+    <members>EF_Decision_Criteria__c</members>
+    <members>EF_Delegation__c</members>
+    <members>EF_Error_Log__c</members>
+    <members>EF_Forms</members>
+    <members>EF_OKTA_Queue__c</members>
+    <members>EF_Partner_Access_Restriction__c</members>
+    <members>EF_Request__c</members>
+    <members>EF_Requested__c</members>
+    <members>EF_Resource_Approver__c</members>
+    <members>EF_Resource_Metadata__c</members>
+    <members>EF_Scheduling__c</members>
+    <members>EF_System_Owner__c</members>
+    <members>myApprovals</members>
+    <members>myAccess</members>
+    <name>CustomTab</name>
+  </types>
+  <types>
+    <members>EF/EF_Approval_Requested</members>
+    <members>EF/EF_Approval_Required</members>
+    <members>EF/EF_Delegation</members>
+    <members>EF/EF_Error_Log</members>
+    <members>EF/EF_MyAccess_Approval_Requested</members>
+    <members>EF/EF_MyAccess_Level_Approval_Requested</members>
+    <members>EF/EF_Request_Approval</members>
+    <members>EF/EF_Request_Approved</members>
+    <members>EF/EF_Request_Rejected</members>
+    <members>EF/EF_Request_Status_Complete</members>
+    <members>EF/EF_Request_Submitted</members>
+    <members>EF/EF_Request_Work_Status_Approve</members>
+    <members>EF/EF_Request_Work_Status_Complete</members>
+    <members>EF/EF_Requested_Approved</members>
+    <members>EF/EF_Requested_Rejected</members>
+    <members>EF/EF_Requested_Submitted_Manager</members>
+    <members>EF/EF_Requested_Submitted</members>
+    <members>EF/EF_Work_Item_Request</members>
+    <members>EF/EF_Work_Item</members>
+    <name>EmailTemplate</name>
+  </types>
+  <types>
+    <members>EEF_AD_Attributes__c-EF AD Attributes Layout</members>
+    <members>EEF_Application_Form_Values__c-EF Application Form Values Layout</members>
+    <members>EEF_Approval_Log__c-EF Approval Log Layout</members>
+    <members>EEF_Decision_Criteria_Metadata__c-EF Decision Criteria Metadata Layout</members>
+    <members>EEF_Decision_Criteria__c-EF Decision Criteria Layout</members>
+    <members>EEF_Delegation__c-EF Delegation Layout</members>
+    <members>EEF_Error_Log__c-EF Error Log Layout</members>
+    <members>EEF_OKTA_Audit_Log__c-EF OKTA Audit Log Layout</members>
+    <members>EEF_OKTA_Queue__c-EF OKTA Queue Layout</members>
+    <members>EEF_Partner_Access_Restriction_Attribute__c-Partner Access Restriction Attribute Layout</members>
+    <members>EEF_Partner_Access_Restriction__c-Partner Access Restriction Layout</members>
+    <members>EEF_Partner_Access_Shares__c-Partner Access Share Layout</members>
+    <members>EEF_Partner__c-EF Partner Layout</members>
+    <members>EEF_Request__c-EF Request Layout</members>
+    <members>EEF_Requested__c-EF Requested Resource Layout</members>
+    <members>EEF_Requested__c-EF System Admins</members>
+    <members>EEF_Resource_Approver__c-EF Resource Approver Layout</members>
+    <members>EEF_Resource_Metadata_Dependency__c-EF Resource Metadata Dependency Layout</members>
+    <members>EEF_Resource_Metadata__c-EF Resource Metadata Layout</members>
+    <members>EEF_Resource_metadata_test1__c-EF_MetadataController_Test1 Layout</members>
+    <members>EEF_Scheduling__c-EF Scheduling Layout</members>
+    <members>EEF_System_Owner__c-EF System Owner Layout</members>
+    <name>Layout</name>
+  </types>
+  <types>
+    <members>Bulk_Merger_Acquisition</members>
+    <members>EF_Admin</members>
+    <members>EF_Bulk_Approval_Admin</members>
+    <members>EF_Bulk_Approval_Merger</members>
+    <members>EF_Standard_User</members>
+    <name>PermissionSet</name>
+  </types>
+  <types>
+    <members>EF_Delegation__c</members>
+    <members>EF_Request__c</members>
+    <members>EF_Requested__c</members>
+    <name>Workflow</name>
+  </types>
+  <version>29.0</version>
+</Package>
