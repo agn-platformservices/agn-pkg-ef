@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <members>Images/EF_Logo_Letter_Head.png</members>
+    <members>EF_Images/EF_Logo_Letter_Head.png</members>
     <members>EF_Images/MyAccessLogoTEST.jpeg</members>
     <members>EF_Images/My_Access_Logo.jpeg</members>
     <members>Salesforce1_Branding_Resources/My_Access_Logo_FA_jpg.jpg</members>
@@ -39,37 +39,7 @@
     <name>Group</name>
   </types>
   <types>
-    <members>EF_AD_Attributes__c</members>
-    <members>EF_Application_Form_Values__c</members>
-    <members>EF_Approval_Log__c</members>
-    <members>EF_Coral_Site_Mapping__c</members>
-    <members>EF_Decision_Criteria_Metadata__c</members>
-    <members>EF_Decision_Criteria__c</members>
-    <members>EF_Delegation__c</members>
-    <members>EF_Error_Log__c</members>
-    <members>EF_Field_Mapping__c</members>
-    <members>EF_LmsAdminProd_ApprovalKey__c</members>
-    <members>EF_MobileDeviceCompany_ApprovalKey__c</members>
-    <members>EF_OKTA_Audit_Log__c</members>
-    <members>EF_OKTA_Queue__c</members>
-    <members>EF_Partner_Access_Restriction_Attribute__c</members>
-    <members>EF_Partner_Access_Restriction__c</members>
-    <members>EF_Partner_Access_Shares__c</members>
-    <members>EF_Partner__c</members>
-    <members>EF_Pdf_Url__c</members>
-    <members>EF_Request__c</members>
-    <members>EF_Requested__c</members>
-    <members>EF_Resource_Approver__c</members>
-    <members>EF_Resource_Metadata_Dependency__c</members>
-    <members>EF_Resource_Metadata__c</members>
-    <members>EF_Resource_metadata_test1__c</members>
-    <members>EF_SOQL_Statements__c</members>
-    <members>EF_Scheduling__c</members>
-    <members>EF_System_Owner__c</members>
-    <members>EF_ilablms_Approvalkey__c</members>
-    <members>OKTA_EndPoint__c</members>
-    <members>OKTA_Site_Settings__c</members>
-    <members>Trigger_Switch__c</members>
+    <members>*</members>
     <name>CustomLabels</name>
   </types>
   <types>
