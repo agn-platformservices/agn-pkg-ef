@@ -15,7 +15,7 @@
     <members>EF_Approval_Wrapper</members>
     <members>EF_AssignDynamicApprovers</members>
     <members>EF_AuditLog</members>
-    <members>EF_AuditLogTest</members>
+    <members>EF_AuditLog_TEST</members>
     <members>EF_Constants</members>
     <members>EF_Delegation_Approver</members>
     <members>EF_DelegationHandler</members>
@@ -28,8 +28,7 @@
     <members>EF_GetUserDetailFormOkta_CTRL</members>
     <members>EF_GetUserDetailFormOkta_Search_AC</members>
     <members>EF_ITrigger</members>
-    <members>EF_ITrigger1</members>
-    <members>EF_JSON_Parser_Test</members>
+    <members>EF_JSON_Parser_TEST</members>
     <members>EF_JSON_Parser</members>
     <members>EF_Metadata_TestController</members>
     <members>EF_MetadataController</members>
@@ -39,7 +38,7 @@
     <members>EF_OKTA_Authenticate</members>
     <members>EF_OKTA_ForApplicationFormValues</members>
     <members>EF_OKTA_Populator</members>
-    <members>EF_OKTA_PopulatorTest</members>
+    <members>EF_OKTA_Populator_TEST</members>
     <members>EF_OKTA_Proxy</members>
     <members>EF_OKTA_Queue_Batch</members>
     <members>EF_OKTA_Queue</members>
@@ -48,12 +47,12 @@
     <members>EF_OKTA_User_Application</members>
     <members>EF_OKTA_User</members>
     <members>EF_OKTAQueueHandler</members>
-    <members>EF_Partner_OKTA_Security_Test</members>
+    <members>EF_Partner_OKTA_Security_TEST</members>
     <members>EF_Partner_OKTA_Security</members>
     <members>EF_PendingApprovalList</members>
     <members>EF_Request_Approve_Controller</members>
     <members>EF_Request_Status_Class</members>
-    <members>EF_RequestController_Test</members>
+    <members>EF_RequestController_TEST</members>
     <members>EF_RequestController</members>
     <members>EF_Requested_Approved</members>
     <members>EF_Requested_Submitted_Manager</members>
@@ -63,7 +62,7 @@
     <members>EF_RequestedResourceApprover</members>
     <members>EF_RequestedResourceController</members>
     <members>EF_RequestedResourceDecisionCriteria</members>
-    <members>EF_RequestHandler_Test</members>
+    <members>EF_RequestHandler_TEST</members>
     <members>EF_TableTestClass</members>
     <members>EF_TriggerHelper</members>
     <members>EF_UpdateOKTA</members>
@@ -98,8 +97,7 @@
     <members>EF_OKTAQueue</members>
     <members>EF_RequestedResource</members>
     <members>EF_RequestedResource</members>
-    <members>assignOwnertrigger</members>
-    <members>assignOwnertrigger</members>
+    <members>EF_AssignOwnerTrigger</members>
     <name>ApexTrigger</name>
   </types>
   <types>
