@@ -1,0 +1,9 @@
+EF Notes:
+ - Static resource names need to be cleaned up
+ - Apex class "JSONObject" ?
+ - Page "ApprovalForm" ?
+ - Trigger "assignOwnertrigger" ?
+ 
+ 
+EF Deployment Steps:
+
