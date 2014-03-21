@@ -9,8 +9,9 @@ Ant packages and related issues for EF.
 
 Key Deployment Dates
 
-* 2014-04-21 - Live
-* 2014-04-14 - Deployment complete
+* 2014-04-07 - Deployment to AGN validates sucessfully (Assuming test coverage is adequate)
+* 2014-04-14 - Deployment complete (Assuming test coverage is adequate)
+* 2014-04-21 - EF go-live
 
 ## Status
 
