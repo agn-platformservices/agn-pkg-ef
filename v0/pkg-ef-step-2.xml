@@ -112,6 +112,10 @@
     <name>ApexComponent</name>
   </types>
   <types>
+    <members>User.Okta_Id__c</members>
+    <name>CustomField</name>
+  </types>
+  <types>
     <members>EF_AD_Attributes__c</members>
     <members>EF_Application_Form_Values__c</members>
     <members>EF_Approval_Log__c</members>
