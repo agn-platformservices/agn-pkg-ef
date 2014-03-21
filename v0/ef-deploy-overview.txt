@@ -1,9 +1,10 @@
+###########
 EF Notes:
 - CustomLabels can't be deployed individually - compare AGN.prod to AGN.beta and make sure on EF* labels have changed
 - Static resource names need to be cleaned up
 - Apex class "JSONObject" ?
 - Page "ApprovalForm" ?
-- Trigger "assignOwnertrigger" ?
+- grep -i fullname /Downloads/PigtoBetaMyAccess/ObjPkg/labels/*
   
 EF Deployment Steps:
 - Workflow - do rules and alerts need to be specified individually?
@@ -12,35 +13,4 @@ EF Deployment Steps:
 ###########
 PROBLEMS
 - User fields - need these instead of entire object
-
-[sf:retrieve] Retrieve warnings (30):
-[sf:retrieve] package.xml - Entity of type 'ApprovalProcess' named 'EEF_Requested__c.Approval_Process_Level_Two' cannot be found
-[sf:retrieve] package.xml - Entity of type 'ApprovalProcess' named 'EEF_Requested__c.Approval_Process_Level_Five' cannot be found
-[sf:retrieve] package.xml - Entity of type 'ApprovalProcess' named 'EEF_Requested__c.Approval_Process_Level_Four' cannot be found
-[sf:retrieve] package.xml - Entity of type 'ApprovalProcess' named 'EEF_Requested__c.Approval_Process_Level_One' cannot be found
-[sf:retrieve] package.xml - Entity of type 'ApprovalProcess' named 'EEF_Requested__c.Approval_Process_Level_Three' cannot be found
-[sf:retrieve] package.xml - Entity of type 'ApprovalProcess' named 'EEF_Requested__c.Approval_Process_Manager_Approval' cannot be found
-[sf:retrieve] package.xml - Entity of type 'ApexClass' named 'EF_ITrigger1' cannot be found
-[sf:retrieve] package.xml - Entity of type 'ApexTrigger' named 'assignOwnertrigger' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Partner_Access_Shares__c-Partner Access Share Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Application_Form_Values__c-EF Application Form Values Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_OKTA_Audit_Log__c-EF OKTA Audit Log Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Approval_Log__c-EF Approval Log Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Resource_metadata_test1__c-EF_MetadataController_Test1 Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Requested__c-EF System Admins' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Delegation__c-EF Delegation Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Partner_Access_Restriction_Attribute__c-Partner Access Restriction Attribute Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Error_Log__c-EF Error Log Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Scheduling__c-EF Scheduling Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_OKTA_Queue__c-EF OKTA Queue Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Partner_Access_Restriction__c-Partner Access Restriction Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Resource_Metadata_Dependency__c-EF Resource Metadata Dependency Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_System_Owner__c-EF System Owner Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Partner__c-EF Partner Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Resource_Metadata__c-EF Resource Metadata Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Resource_Approver__c-EF Resource Approver Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Decision_Criteria__c-EF Decision Criteria Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Requested__c-EF Requested Resource Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Request__c-EF Request Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_Decision_Criteria_Metadata__c-EF Decision Criteria Metadata Layout' cannot be found
-[sf:retrieve] package.xml - Entity of type 'Layout' named 'EEF_AD_Attributes__c-EF AD Attributes Layout' cannot be found
+- Opened case for folder issue
