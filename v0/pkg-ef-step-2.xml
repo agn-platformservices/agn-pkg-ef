@@ -171,6 +171,7 @@
     <name>CustomTab</name>
   </types>
   <types>
+    <members>EF</members>
     <members>EF/EF_Approval_Requested</members>
     <members>EF/EF_Approval_Required</members>
     <members>EF/EF_Delegation</members>

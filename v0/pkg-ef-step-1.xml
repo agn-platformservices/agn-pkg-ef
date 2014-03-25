@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
+    <members>EF_Images</members>
     <members>EF_Images/EF_Logo_Letter_Head.png</members>
     <members>EF_Images/MyAccessLogoTEST.jpeg</members>
     <members>EF_Images/My_Access_Logo.jpeg</members>
+    <members>EF_Images/myAccess_Logo_New.gif</members>
+    <members>EF_Images/Myaccess_logo.png</members>
+    <members>Salesforce1_Branding_Resources</members>
     <members>Salesforce1_Branding_Resources/My_Access_Logo_FA_jpg.jpg</members>
     <members>Salesforce1_Branding_Resources/My_Access_Logo_FA_sm_png.png</members>
-    <members>EF_Images/Myaccess_logo.png</members>
-    <members>IS_Mobile_Email_Images/ismobile_notification_banner.png</members>
-    <members>EF_Images/myAccess_Logo_New.gif</members>
-    <name>Document</name>
-  </types>
-  <types>
-    <members>EF_Images</members>
-    <members>EF_PDF_Application</members>
     <members>IS_Mobile_Email_Images</members>
-    <members>Salesforce1_Branding_Resources</members>
-    <name>Folder</name>
+    <members>IS_Mobile_Email_Images/ismobile_notification_banner.png</members>
+    <name>Document</name>
   </types>
   <types>
     <members>BEACON_Project_Group</members>
@@ -26,6 +22,7 @@
     <members>EF_UserID_ACME</members>
     <members>EF_UserID_BPC</members>
     <members>EF_UserID_COSMOS</members>
+    <members>EF_UserID_ChemReg</members>
     <members>EF_UserID_Clarity</members>
     <members>EF_UserID_Database</members>
     <members>EF_UserID_Empower2</members>

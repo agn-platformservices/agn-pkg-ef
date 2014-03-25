@@ -5,12 +5,13 @@ EF Notes:
 - Apex class "JSONObject" ?
 - Page "ApprovalForm" ?
 - grep -i fullname /Downloads/PigtoBetaMyAccess/ObjPkg/labels/*
-  
-EF Deployment Steps:
 - Workflow - do rules and alerts need to be specified individually?
-
 
 ###########
 PROBLEMS
-- User fields - need these instead of entire object
-- Opened case for folder issue
+
+
+
+###########
+STEPS
+Create OW Email address for IAM Admin Team
