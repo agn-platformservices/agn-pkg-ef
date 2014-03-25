@@ -16,6 +16,7 @@
     <members>EF_AssignDynamicApprovers</members>
     <members>EF_AuditLog</members>
     <members>EF_AuditLog_TEST</members>
+    <members>EF_CheckFormValuesPresent</members>
     <members>EF_Constants</members>
     <members>EF_Delegation_Approver</members>
     <members>EF_DelegationHandler</members>
@@ -50,8 +51,10 @@
     <members>EF_Partner_OKTA_Security_TEST</members>
     <members>EF_Partner_OKTA_Security</members>
     <members>EF_PendingApprovalList</members>
+    <members>EF_ProcessControl</members>
     <members>EF_Request_Approve_Controller</members>
     <members>EF_Request_Status_Class</members>
+    <members>EF_Request_Status_EmailTemplate</members>
     <members>EF_RequestController_TEST</members>
     <members>EF_RequestController</members>
     <members>EF_Requested_Approved</members>
@@ -73,6 +76,7 @@
     <members>Okta_SCIM_Interface</members>
     <members>Okta_SCIM_User</members>
     <members>Partner_OKTA_Gateway</members>
+    <members>tstpopup</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -120,6 +124,7 @@
     <members>EF_Application_Form_Values__c</members>
     <members>EF_Approval_Log__c</members>
     <members>EF_Coral_Site_Mapping__c</members>
+    <members>EF_Counter__c</members>
     <members>EF_Decision_Criteria_Metadata__c</members>
     <members>EF_Decision_Criteria__c</members>
     <members>EF_Delegation__c</members>
@@ -134,6 +139,7 @@
     <members>EF_Partner_Access_Shares__c</members>
     <members>EF_Partner__c</members>
     <members>EF_Pdf_Url__c</members>
+    <members>EF_Redirect_URL__c</members>
     <members>EF_Request__c</members>
     <members>EF_Requested__c</members>
     <members>EF_Resource_Approver__c</members>

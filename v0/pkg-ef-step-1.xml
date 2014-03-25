@@ -40,22 +40,32 @@
     <name>CustomLabels</name>
   </types>
   <types>
-    <members>border_radius_htc</members>
-    <members>BOXI</members>
+    <members>EF_BOXI</members>
+    <members>EF_CORAL</members>
     <members>EF_Form_All</members>
     <members>EF_FormDefinition</members>
+    <members>EF_FormMobileDefinition</members>
     <members>EF_Logo_Small</members>
     <members>EF_Logo_Small2</members>
     <members>EF_Logo</members>
+    <members>ef_externalIcon</members>
     <members>ef_resource_search_reset</members>
+    <members>ef_externalResourceIcon</members>
+    <members>EF_SAPBOXI</members>
     <members>ef_tab_close_icon</members>
     <members>ef_tab_close_icon2</members>
+    <members>border_radius_htc</members>
     <members>famfamfam</members>
     <members>ie_pie</members>
     <members>IE8_polyfill</members>
+    <members>extjs</members>
+    <members>helpIcon16</members>
+    <members>loading_animation</members>
     <members>oktaParser</members>
+    <members>Request_Style</members>
     <members>SAPBOXI</members>
     <members>searchComponent</members>
+    <members>senchatouch</members>
     <name>StaticResource</name>
   </types>
   <version>29.0</version>
