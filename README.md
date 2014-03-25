@@ -15,8 +15,5 @@ Key Deployment Dates
 
 ## Status
 
-* 2014-03-25
-* AGN.BETA >> AGN.AntDeploy: Deployed Successfully
-* 
-* 2014-03-21
-* Package files separated into 2, validating via retrievals from AGN.BETA.
+* 2014-03-25: AGN.BETA >> AGN.AntDeploy: Deployed Successfully
+* 2014-03-21: Package files separated into 2, validating via retrievals from AGN.BETA.
