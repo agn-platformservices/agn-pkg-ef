@@ -1,0 +1,9 @@
+Deployment Steps
+
+0. AGN Org: Create OW Email address for IAM Admin Team
+ - SetUp > Email Administration > Organization-Wide Email Addresses
+ - Match against AGN.BETA config
+ 
+1. Ant Deploy: ef-step-1-pkg.xml
+
+2. Ant Deploy: ef-step-2-pkg.xml
