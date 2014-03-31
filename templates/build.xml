@@ -1,0 +1,38 @@
+<project name="RUSH Targets" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <property file="build.properties"/>
+
+    <!-- ########################## RETRIEVES for AGN.BETA ########################## -->
+
+    <target name="AGN_Beta_Ret_1">
+      <mkdir dir="${agn-beta.target-1}"/>
+      <sf:retrieve username="${agn-beta.username}" password="${agn-beta.password}" maxPoll="${sf.maxPoll}" serverurl="${sfTest.serverurl}"  
+        retrieveTarget="${agn-beta.target-1}"
+        unpackaged="${agn-beta.pkg-1}"/>
+    </target>
+
+    <target name="AGN_Beta_Ret_2">
+      <mkdir dir="${agn-beta.target-2}"/>
+      <sf:retrieve username="${agn-beta.username}" password="${agn-beta.password}" maxPoll="${sf.maxPoll}" serverurl="${sfTest.serverurl}"  
+        retrieveTarget="${agn-beta.target-2}"
+         unpackaged="${agn-beta.pkg-2}"/>
+    </target>
+    
+    <!-- ########################## DEPLOYS for AGN.antDeploy ########################## -->
+
+    <target name="AGN_AntDeploy_Dep_1">
+      <sf:deploy username="${agn-antDeploy.username}" password="${agn-antDeploy.password}" maxPoll="${sf.maxPoll}" serverurl="${sfTest.serverurl}"  
+        deployRoot="metadata/AGN_BETA/step-1"
+        checkonly="false"
+        runAllTests="false"/>
+    </target>
+    
+    <target name="AGN_AntDeploy_Dep_2">
+      <sf:deploy username="${agn-antDeploy.username}" password="${agn-antDeploy.password}" maxPoll="${sf.maxPoll}" serverurl="${sfTest.serverurl}"  
+        deployRoot="metadata/AGN_BETA/step-2"
+        checkonly="false"
+        runAllTests="false"/>
+    </target>
+    
+    
+</project>
