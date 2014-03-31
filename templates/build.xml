@@ -1,4 +1,4 @@
-<project name="RUSH Targets" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="AGN.EF Targets Template" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
 
     <property file="build.properties"/>
 
@@ -22,14 +22,14 @@
 
     <target name="AGN_AntDeploy_Dep_1">
       <sf:deploy username="${agn-antDeploy.username}" password="${agn-antDeploy.password}" maxPoll="${sf.maxPoll}" serverurl="${sfTest.serverurl}"  
-        deployRoot="metadata/AGN_BETA/step-1"
+        deployRoot="${agn-beta.target-1}"
         checkonly="false"
         runAllTests="false"/>
     </target>
     
     <target name="AGN_AntDeploy_Dep_2">
       <sf:deploy username="${agn-antDeploy.username}" password="${agn-antDeploy.password}" maxPoll="${sf.maxPoll}" serverurl="${sfTest.serverurl}"  
-        deployRoot="metadata/AGN_BETA/step-2"
+        deployRoot="${agn-beta.target-2}"
         checkonly="false"
         runAllTests="false"/>
     </target>
