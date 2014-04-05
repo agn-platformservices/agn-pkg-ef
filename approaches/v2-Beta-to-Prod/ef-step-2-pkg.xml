@@ -131,6 +131,7 @@
     <members>EF_Error_Log__c</members>
     <members>EF_Field_Mapping__c</members>
     <members>EF_LmsAdminProd_ApprovalKey__c</members>
+    <members>EF_LmsAdminNonProd_ApprovalKey__c</members>
     <members>EF_MobileDeviceCompany_ApprovalKey__c</members>
     <members>EF_OKTA_Audit_Log__c</members>
     <members>EF_OKTA_Queue__c</members>
@@ -153,6 +154,7 @@
     <members>OKTA_EndPoint__c</members>
     <members>OKTA_Site_Settings__c</members>
     <members>Trigger_Switch__c</members>
+
     <name>CustomObject</name>
   </types>
   <types>
