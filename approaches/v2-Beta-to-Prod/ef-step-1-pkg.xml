@@ -33,6 +33,8 @@
     <members>EF_UserID_Provantis</members>
     <members>EF_UserID_Watson</members>
     <members>EF_UserID_eCTDViewer</members>
+    <members>EF_UserID_SalesTerritoryDB</members>
+    <members>EF_UserID_Move_Form_User_ID_IS</members>
     <name>Group</name>
   </types>
   <types>
