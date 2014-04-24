@@ -127,13 +127,11 @@
         <members>Okta_SCIM_User</members>
         <members>Okta_SCIM_Group</members>
         <members>Partner_OKTA_Gateway</members>
-        <members>tstpopup</members>
         <members>JSONObject</members>
         <members>EF_RequestedHandler_Test_Utility</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>ApprovalForm</members>
         <members>EF_ApprovalRelatedList</members>
         <members>EF_Delegation</members>
         <members>EF_Form</members>
@@ -173,6 +171,7 @@
         <members>EF_AD_Attributes__c</members>
         <members>EF_Application_Form_Values__c</members>
         <members>EF_Approval_Log__c</members>
+        <members>EF_Bulk_Upload__c</members>
         <members>EF_Coral_Site_Mapping__c</members>
         <members>EF_Counter__c</members>
         <members>EF_Decision_Criteria_Metadata__c</members>
@@ -180,9 +179,11 @@
         <members>EF_Delegation__c</members>
         <members>EF_Error_Log__c</members>
         <members>EF_Field_Mapping__c</members>
-        <members>EF_LmsAdminProd_ApprovalKey__c</members>
+        <members>EF_Links__c</members>
         <members>EF_LmsAdminNonProd_ApprovalKey__c</members>
+        <members>EF_LmsAdminProd_ApprovalKey__c</members>
         <members>EF_MobileDeviceCompany_ApprovalKey__c</members>
+        <members>EF_Move_Form_Site_Mapping__c</members>
         <members>EF_OKTA_Audit_Log__c</members>
         <members>EF_OKTA_Queue__c</members>
         <members>EF_Partner_Access_Restriction_Attribute__c</members>
@@ -198,8 +199,9 @@
         <members>EF_Resource_Metadata__c</members>
         <members>EF_Resource_metadata_test1__c</members>
         <members>EF_SOQL_Statements__c</members>
-        <members>EF_Scheduling__c</members>
         <members>EF_Schedule__c</members>
+        <members>EF_Scheduler_Settings__c</members>
+        <members>EF_Scheduling__c</members>
         <members>EF_System_Owner__c</members>
         <members>EF_ilablms_Approvalkey__c</members>
         <members>OKTA_EndPoint__c</members>
